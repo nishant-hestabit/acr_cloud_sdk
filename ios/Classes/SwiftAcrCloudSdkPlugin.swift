@@ -157,8 +157,8 @@ public class SwiftAcrCloudSdkPlugin: NSObject, FlutterPlugin, FlutterStreamHandl
             if(self.resultEvents != nil){
                 self.resultEvents!(result);
             }
-            self._client?.stopRecordRec();
-            self._start = false;
+//             self._client?.stopRecordRec();
+//             self._start = false;
         }
     }
     
